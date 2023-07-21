@@ -34,9 +34,8 @@ message(STATUS "CMAKE_SHARED_LINKER_FLAGS: ${CMAKE_SHARED_LINKER_FLAGS}")
 
 
 include_directories(${PROJECT_SOURCE_DIR}/mini_faiss/include)
-
-add_subdirectory(tests)
 add_subdirectory(mini_faiss)
+add_subdirectory(tests)
 
 
  
