@@ -21,9 +21,5 @@ if(USE_DOUBLE)
     add_definitions(-DUSE_DOUBLE)
 endif()
 
-#glog 
-# find_package(glog REQUIRED)
-# include_directories(${GLOG_INCLUDE_DIRS})
-# target_link_libraries(mini_faiss PRIVATE glog::glog gflags)
 
 
